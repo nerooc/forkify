@@ -5,6 +5,7 @@ import { Fraction } from 'fractional';
 export const clearRecipe = () => {
     elements.recipe.innerHTML = '';
 };
+
 const formatCount = count => {
     if (count) {
         const newCount = Math.round(count * 10000) / 10000;
@@ -102,6 +103,7 @@ export const renderRecipe = (recipe, isLiked) => {
             </a>
         </div>
     `;
+    
     elements.recipe.insertAdjacentHTML('afterbegin', markup);
 };
 
