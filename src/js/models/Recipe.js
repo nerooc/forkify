@@ -8,7 +8,6 @@ export default class Recipe {
     async getRecipe(){
         try{
             const res = await axios(`https://forkify-api.herokuapp.com/api/get?rId=${this.id}`);
-            console.log(res);
             
             this.title = res.data.recipe.title;
             this.author = res.data.recipe.publisher;
@@ -28,7 +27,7 @@ export default class Recipe {
     }
 
     calcServings(){
-        this.serving = 4;
+        this.servings = 4;
     }
 
     parseIngredients() {
