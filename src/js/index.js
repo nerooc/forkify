@@ -18,13 +18,11 @@ import { elements, renderLoader, clearLoader } from './views/base';
  */
 const state = {}
 
-
 //SEARCH CONTROLLER
 const controlSearch = async () => {
 
     //1) Get query from view
     const query = searchView.getInput(); //TODO
-    console.log(query);
 
     if(query){
         //2) New search object and add to state
@@ -98,7 +96,6 @@ const controlRecipe = async () => {
             );
 
         } catch (err) {
-            console.log(err);
             alert('Error processing recipe!');
         }
     }
