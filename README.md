@@ -1,4 +1,15 @@
-# Forkify
+# `Forkify`
+
+### [OPEN DEMO]()
+
+## Tech stack
+- HTML
+- CSS
+- JS
+- MVC architecture
+- uniqid
+- Axios
+- Fractional
 
 A simple **Javascript** project that allows the user to browse through recipes called with a **food2fork API**, to save ingredients to a shopping list and to save recipes as **favourites**.
 
