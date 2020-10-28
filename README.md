@@ -1,6 +1,6 @@
 # `Forkify`
 
-### [OPEN DEMO]()
+### [OPEN DEMO](http://forkify-app-tgajda.mybluemix.net/index.html)
 
 ## Tech stack
 - HTML
